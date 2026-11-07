@@ -3,9 +3,9 @@
     "intro_name": "Allan Aminu",
     "nav_name": "Allan Aminu",
     "role": "Web Designer",
-    "tagline": "Websites, business emails and online growth.",
+    "tagline": "Websites, business emails and online growth strategist.",
     "footer_name": "Allan Aminu",
-    "title": "Allan Aminu | Web Designer"
+    "title": "Online branding strategist | Web Designer"
   },
   "look": {
     "accent": "#f5c98b",
@@ -22,7 +22,7 @@
     "services": true,
     "how": true,
     "about": true,
-    "team": true,
+    "team": false,
     "faq": true,
     "quote": true,
     "floating_whatsapp": true
@@ -31,8 +31,8 @@
     "whatsapp": "2349027085482",
     "email": "allamaminu247@gmail.com",
     "instagram": "",
-    "wa_message": "Hi Allan, I saw your portfolio and I need a website.",
-    "reply_note": "I usually reply within a few hours.",
+    "wa_message": "Hi Allan. I saw your portfolio and I need a website and other of your services.",
+    "reply_note": "I usually reply within a few minutes or hours.",
     "formspree": "",
     "types": [
       "Online store",
@@ -41,7 +41,9 @@
       "Real estate",
       "Hospital or clinic",
       "Modeling or talent agency",
-      "Other"
+      "Product sales",
+      "Personal branding",
+      "Others"
     ]
   },
   "sites": [
@@ -103,8 +105,8 @@
       "title": "Meridian Care Hospital",
       "category": "Hospital or clinic",
       "url": "https://abababala.github.io/meridian-care-hospital/",
-      "image": "",
-      "desc": "A clear, trustworthy hospital site for patients.",
+      "image": "/images/uploads/IMG_4715.png",
+      "desc": "A clear, trustworthy hospital site for patients and professionals to getting better online and web traction.",
       "includes": [
         "Departments and services",
         "Easy contact details"
@@ -115,8 +117,8 @@
       "title": "Newbutton Models",
       "category": "Modeling agency",
       "url": "https://newbuttonmodels.com",
-      "image": "",
-      "desc": "The website for my own modeling agency.",
+      "image": "/images/uploads/IMG_4714.png",
+      "desc": "The website for a modeling agency created to represent their brand identity and function.",
       "includes": [],
       "show": true
     }
@@ -124,7 +126,7 @@
   "services": [
     {
       "title": "Website design",
-      "text": "Clean, mobile-friendly websites that look sharp and that you can update yourself.",
+      "text": "Clean, mobile and desktop friendly websites that look and represent your creative vision or brand identity.",
       "show": true
     },
     {
@@ -133,8 +135,8 @@
       "show": true
     },
     {
-      "title": "Social media growth",
-      "text": "A practical, organic plan to grow followers and engagement on Instagram, TikTok, Facebook, X, LinkedIn, YouTube, Snapchat, Pinterest, Threads, Telegram and WhatsApp Channels. No fake followers.",
+      "title": "Social media growth and followers increase",
+      "text": "A practical, organic plan to grow followers and engagement on Instagram, TikTok, Facebook, X, LinkedIn, YouTube, Snapchat, Pinterest, Threads, Telegram and WhatsApp Channels. \nYou can also buy followers, views and other services to boost your social media and professional engagement.",
       "show": true
     },
     {
@@ -150,48 +152,48 @@
     },
     {
       "title": "Get your quote",
-      "text": "I reply with a price and what is included."
+      "text": "We’ll reply with a price and what is included."
     },
     {
-      "title": "I design and build",
-      "text": "You see it take shape and ask for changes."
+      "title": "We design and build around your request or brand identity.",
+      "text": "You see it take shape and ask for changes to your suited preferences"
     },
     {
       "title": "Launch",
-      "text": "Your site goes live and you can edit it yourself."
+      "text": "Your site goes live, with your custom domain and brand identity, searchable on google by potential and existing clients."
     }
   ],
   "about": {
-    "photo": "",
-    "text": "I’m Allan, a creative based in Nigeria. I build websites, set up business emails, and help brands show up online, from Google to Instagram."
+    "photo": "/images/uploads/IMG_3138.jpeg",
+    "text": "I’m Allan Aminu. I build websites, set up business emails and help brands, professionals or key players in their field show up online and in the digital space from Google to Instagram."
   },
   "team": [
     {
       "name": "Allan Aminu",
-      "title": "Founder and Web Designer",
-      "photo": "",
+      "title": "Media branding expert and Web Designer",
+      "photo": "/images/uploads/IMG_3138.jpeg",
       "show": true
     }
   ],
   "faq": [
     {
       "q": "How long does a website take?",
-      "a": "It depends on the size. Most sites take from a few days to a couple of weeks.",
+      "a": "It depends on the size. Most sites take from a few days to a couple of weeks.\nReach out to us for better clarity and better inquiry.",
       "show": true
     },
     {
-      "q": "What do I need to give you?",
-      "a": "Your business name, logo, photos and the main details. If you do not have photos yet, we can start with placeholders.",
+      "q": "What do I need to submit for your service?",
+      "a": "Your business name, logo, photos and the main details. If you do not have photos yet, we can start with placeholders and also build up from scratch for you.",
       "show": true
     },
     {
       "q": "Who pays for the domain and hosting?",
-      "a": "You pay for your own domain. I explain any hosting cost before we start.",
+      "a": "These are included in our service invoice. We explain any hosting or domain cost before we start and their duration according to your preferences.",
       "show": true
     },
     {
       "q": "Can I edit the site myself?",
-      "a": "Yes. Your site comes with a simple admin page for changing text, photos and prices.",
+      "a": "Yes. Your site comes with a simple admin page for changing text, photos and prices. This is an optional offer.",
       "show": true
     }
   ]
