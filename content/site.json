@@ -1,34 +1,198 @@
 {
-"brand":{"intro_name":"Allan Aminu","nav_name":"Allan Aminu","role":"Web Designer","tagline":"Websites, business emails and online growth.","footer_name":"Allan Aminu","title":"Allan Aminu | Web Designer"},
-"look":{"accent":"#f5c98b","glow":"#ff9f7a","bg1":"#0b1226","bg2":"#1b2a5a","bg_image":"","overlay":0.55,"blur":0},
-"show":{"intro":true,"sites":true,"services":true,"how":true,"about":true,"team":true,"faq":true,"quote":true,"floating_whatsapp":true},
-"contact":{"whatsapp":"2349027085482","email":"allamaminu247@gmail.com","instagram":"","wa_message":"Hi Allan, I saw your portfolio and I need a website.","reply_note":"I usually reply within a few hours.","formspree":"","types":["Online store","Hotel or apartments","Restaurant","Real estate","Hospital or clinic","Modeling or talent agency","Other"]},
-"about":{"photo":"","text":"I’m Allan, a creative based in Nigeria. I build websites, set up business emails, and help brands show up online, from Google to Instagram."},
-"sites":[
-{"title":"Urban Thread","category":"Online fashion store","url":"https://abababala.github.io/urban-thread/","image":"","desc":"A bright fashion store with a simple cart that sends orders to WhatsApp.","includes":["Categories, sizes and size guides","Cart with WhatsApp checkout","Discount codes and delivery fees","Everything editable in admin"],"show":true},
-{"title":"Haven Suites","category":"Hotel or serviced apartments","url":"https://abababala.github.io/haven-suites/","image":"","desc":"A modern, minimal hotel site where guests send booking requests.","includes":["Room pages with prices","Gallery and video tour","Booking request by email or WhatsApp","Offers, events and FAQ"],"show":true},
-{"title":"Ember Kitchen","category":"Restaurant","url":"https://abababala.github.io/ember-kitchen/","image":"","desc":"A dark, rustic restaurant site built around the menu.","includes":["Menu and gallery","Reservations","Editable colours and logo"],"show":true},
-{"title":"Prime Estates","category":"Real estate","url":"https://abababala.github.io/prime-estates/","image":"","desc":"A warm, stone-toned property site with slideshows.","includes":["Property listings","Slideshows","Brand colours editable in admin"],"show":true},
-{"title":"Meridian Care Hospital","category":"Hospital or clinic","url":"https://abababala.github.io/meridian-care-hospital/","image":"","desc":"A clear, trustworthy hospital site for patients.","includes":["Departments and services","Easy contact details"],"show":true},
-{"title":"Newbutton Models","category":"Modeling agency","url":"https://newbuttonmodels.com","image":"","desc":"The website for my own modeling agency.","includes":[],"show":true}
-],
-"services":[
-{"title":"Website design","text":"Clean, mobile-friendly websites that look sharp and that you can update yourself.","show":true},
-{"title":"Custom business email","text":"An email that matches your brand, like name@yourbusiness.com, set up and ready to use.","show":true},
-{"title":"Social media growth","text":"A practical, organic plan to grow followers and engagement on Instagram, TikTok, Facebook, X, LinkedIn, YouTube, Snapchat, Pinterest, Threads, Telegram and WhatsApp Channels. No fake followers.","show":true},
-{"title":"Google location setup","text":"Get your business found on Google Search and Maps with a properly set up Business Profile, so customers can find you and call you.","show":true}
-],
-"how":[
-{"title":"Tell me what you need","text":"Send your details with the quote form."},
-{"title":"Get your quote","text":"I reply with a price and what is included."},
-{"title":"I design and build","text":"You see it take shape and ask for changes."},
-{"title":"Launch","text":"Your site goes live and you can edit it yourself."}
-],
-"team":[{"name":"Allan Aminu","title":"Founder and Web Designer","photo":"","show":true}],
-"faq":[
-{"q":"How long does a website take?","a":"It depends on the size. Most sites take from a few days to a couple of weeks.","show":true},
-{"q":"What do I need to give you?","a":"Your business name, logo, photos and the main details. If you do not have photos yet, we can start with placeholders.","show":true},
-{"q":"Who pays for the domain and hosting?","a":"You pay for your own domain. I explain any hosting cost before we start.","show":true},
-{"q":"Can I edit the site myself?","a":"Yes. Your site comes with a simple admin page for changing text, photos and prices.","show":true}
-]
+  "brand": {
+    "intro_name": "Allan Aminu",
+    "nav_name": "Allan Aminu",
+    "role": "Web Designer",
+    "tagline": "Websites, business emails and online growth.",
+    "footer_name": "Allan Aminu",
+    "title": "Allan Aminu | Web Designer"
+  },
+  "look": {
+    "accent": "#f5c98b",
+    "glow": "#ff9f7a",
+    "bg1": "#0b1226",
+    "bg2": "#1b2a5a",
+    "bg_image": "/images/uploads/0121559b-e58a-4a56-92d4-e838a08b9adb.jpeg",
+    "overlay": 0.55,
+    "blur": 8
+  },
+  "show": {
+    "intro": true,
+    "sites": true,
+    "services": true,
+    "how": true,
+    "about": true,
+    "team": true,
+    "faq": true,
+    "quote": true,
+    "floating_whatsapp": true
+  },
+  "contact": {
+    "whatsapp": "2349027085482",
+    "email": "allamaminu247@gmail.com",
+    "instagram": "",
+    "wa_message": "Hi Allan, I saw your portfolio and I need a website.",
+    "reply_note": "I usually reply within a few hours.",
+    "formspree": "",
+    "types": [
+      "Online store",
+      "Hotel or apartments",
+      "Restaurant",
+      "Real estate",
+      "Hospital or clinic",
+      "Modeling or talent agency",
+      "Other"
+    ]
+  },
+  "sites": [
+    {
+      "title": "Urban Thread",
+      "category": "Online fashion store",
+      "url": "https://abababala.github.io/urban-thread/",
+      "image": "",
+      "desc": "A bright fashion store with a simple cart that sends orders to WhatsApp.",
+      "includes": [
+        "Categories, sizes and size guides",
+        "Cart with WhatsApp checkout",
+        "Discount codes and delivery fees",
+        "Everything editable in admin"
+      ],
+      "show": true
+    },
+    {
+      "title": "Haven Suites",
+      "category": "Hotel or serviced apartments",
+      "url": "https://abababala.github.io/haven-suites/",
+      "image": "",
+      "desc": "A modern, minimal hotel site where guests send booking requests.",
+      "includes": [
+        "Room pages with prices",
+        "Gallery and video tour",
+        "Booking request by email or WhatsApp",
+        "Offers, events and FAQ"
+      ],
+      "show": true
+    },
+    {
+      "title": "Ember Kitchen",
+      "category": "Restaurant",
+      "url": "https://abababala.github.io/ember-kitchen/",
+      "image": "",
+      "desc": "A dark, rustic restaurant site built around the menu.",
+      "includes": [
+        "Menu and gallery",
+        "Reservations",
+        "Editable colours and logo"
+      ],
+      "show": true
+    },
+    {
+      "title": "Prime Estates",
+      "category": "Real estate",
+      "url": "https://abababala.github.io/prime-estates/",
+      "image": "",
+      "desc": "A warm, stone-toned property site with slideshows.",
+      "includes": [
+        "Property listings",
+        "Slideshows",
+        "Brand colours editable in admin"
+      ],
+      "show": true
+    },
+    {
+      "title": "Meridian Care Hospital",
+      "category": "Hospital or clinic",
+      "url": "https://abababala.github.io/meridian-care-hospital/",
+      "image": "",
+      "desc": "A clear, trustworthy hospital site for patients.",
+      "includes": [
+        "Departments and services",
+        "Easy contact details"
+      ],
+      "show": true
+    },
+    {
+      "title": "Newbutton Models",
+      "category": "Modeling agency",
+      "url": "https://newbuttonmodels.com",
+      "image": "",
+      "desc": "The website for my own modeling agency.",
+      "includes": [],
+      "show": true
+    }
+  ],
+  "services": [
+    {
+      "title": "Website design",
+      "text": "Clean, mobile-friendly websites that look sharp and that you can update yourself.",
+      "show": true
+    },
+    {
+      "title": "Custom business email",
+      "text": "An email that matches your brand, like name@yourbusiness.com, set up and ready to use.",
+      "show": true
+    },
+    {
+      "title": "Social media growth",
+      "text": "A practical, organic plan to grow followers and engagement on Instagram, TikTok, Facebook, X, LinkedIn, YouTube, Snapchat, Pinterest, Threads, Telegram and WhatsApp Channels. No fake followers.",
+      "show": true
+    },
+    {
+      "title": "Google location setup",
+      "text": "Get your business found on Google Search and Maps with a properly set up Business Profile, so customers can find you and call you.",
+      "show": true
+    }
+  ],
+  "how": [
+    {
+      "title": "Tell me what you need",
+      "text": "Send your details with the quote form."
+    },
+    {
+      "title": "Get your quote",
+      "text": "I reply with a price and what is included."
+    },
+    {
+      "title": "I design and build",
+      "text": "You see it take shape and ask for changes."
+    },
+    {
+      "title": "Launch",
+      "text": "Your site goes live and you can edit it yourself."
+    }
+  ],
+  "about": {
+    "photo": "",
+    "text": "I’m Allan, a creative based in Nigeria. I build websites, set up business emails, and help brands show up online, from Google to Instagram."
+  },
+  "team": [
+    {
+      "name": "Allan Aminu",
+      "title": "Founder and Web Designer",
+      "photo": "",
+      "show": true
+    }
+  ],
+  "faq": [
+    {
+      "q": "How long does a website take?",
+      "a": "It depends on the size. Most sites take from a few days to a couple of weeks.",
+      "show": true
+    },
+    {
+      "q": "What do I need to give you?",
+      "a": "Your business name, logo, photos and the main details. If you do not have photos yet, we can start with placeholders.",
+      "show": true
+    },
+    {
+      "q": "Who pays for the domain and hosting?",
+      "a": "You pay for your own domain. I explain any hosting cost before we start.",
+      "show": true
+    },
+    {
+      "q": "Can I edit the site myself?",
+      "a": "Yes. Your site comes with a simple admin page for changing text, photos and prices.",
+      "show": true
+    }
+  ]
 }
