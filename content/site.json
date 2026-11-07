@@ -13,8 +13,8 @@
     "bg1": "#0b1226",
     "bg2": "#1b2a5a",
     "bg_image": "/images/uploads/0121559b-e58a-4a56-92d4-e838a08b9adb.jpeg",
-    "overlay": 0.55,
-    "blur": 8
+    "overlay": 0,
+    "blur": 1
   },
   "show": {
     "intro": true,
