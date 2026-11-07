@@ -1,0 +1,80 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Allan Aminu | Web Designer</title>
+<meta name="description" content="Websites, business emails and online growth.">
+<meta property="og:title" content="Allan Aminu | Web Designer"><meta property="og:description" content="Websites, business emails and online growth."><meta property="og:image" content="https://abababala.github.io/allan-aminu/images/preview.png"><meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--a:#f5c98b;--b1:#0b1226;--b2:#1b2a5a;--g:#ff9f7a;--ov:.55;--bl:0px}
+*{box-sizing:border-box;margin:0}html{scroll-behavior:smooth}
+body{font:16px/1.6 Sora,system-ui,sans-serif;color:#eef1fb;background:var(--b1);overflow-x:hidden}
+#bg{position:fixed;inset:0;z-index:-1;overflow:hidden;background:radial-gradient(55% 45% at 12% 8%,var(--g),transparent 62%),radial-gradient(60% 55% at 92% 85%,var(--b2),transparent 70%),var(--b1)}
+#bg i,#bg b{position:absolute;inset:0}#bg i{background-size:cover;background-position:center;filter:blur(var(--bl));transform:scale(1.05)}#bg b{background:rgba(8,12,28,var(--ov));display:none}
+.g{background:rgba(255,255,255,.08);-webkit-backdrop-filter:blur(18px) saturate(140%);backdrop-filter:blur(18px) saturate(140%);border:1px solid rgba(255,255,255,.18);border-radius:28px;box-shadow:0 10px 40px rgba(0,0,0,.28)}
+.t{position:relative;transition:transform .25s;transform:perspective(900px) rotateX(var(--rx,0)) rotateY(var(--ry,0))}
+.t::after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;background:radial-gradient(220px circle at var(--mx,50%) var(--my,50%),rgba(255,255,255,.13),transparent 70%);opacity:0;transition:opacity .25s}.t:hover::after{opacity:1}
+nav{position:fixed;top:12px;left:50%;transform:translateX(-50%);width:min(94%,780px);display:flex;justify-content:space-between;align-items:center;gap:10px;padding:8px 10px 8px 20px;z-index:20;border-radius:999px}
+nav .lg{color:#fff;text-decoration:none;font-weight:700}nav .l a{color:#dfe5ff;text-decoration:none;font-size:14px;margin:0 9px}
+@media(max-width:700px){nav .l{display:none}}
+section,header,footer{max-width:1100px;margin:auto;padding:80px 6% 10px}
+h1{font-size:clamp(40px,9vw,84px);line-height:1.05;letter-spacing:-.02em}h2{font-size:clamp(26px,4vw,38px);margin-bottom:22px;letter-spacing:-.01em}h3{margin:4px 0}
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:space-between;gap:30px;flex-wrap:wrap;padding-top:110px}
+.hero p{font-size:clamp(17px,2.4vw,22px);margin:14px 0 26px;max-width:520px;opacity:.9}
+.pt{width:150px;padding:10px;text-align:center;font-size:12px}
+.pt img,.pt>span,.th img,.ab img,.tm img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:22px;background:rgba(255,255,255,.1)}.pt>span,.th>span,.tm>span{display:grid;place-items:center;font-size:44px;font-weight:700}
+.pt small{display:block;margin-top:8px}
+.bt{display:inline-block;padding:12px 22px;border-radius:18px;background:var(--a);color:#14182b;font:600 15px Sora,system-ui;text-decoration:none;border:0;cursor:pointer}.bt.o{background:rgba(255,255,255,.1);color:#fff;border:1px solid rgba(255,255,255,.25)}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible{outline:2px solid var(--a);outline-offset:2px}
+.gr{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(270px,1fr))}
+.cs{padding:12px}.th{height:180px;border-radius:20px;overflow:hidden;background:linear-gradient(135deg,var(--b2),var(--g))}.th img{height:100%;aspect-ratio:auto;border-radius:0}.th>span{height:100%}
+.cb{padding:12px 8px 8px}.cb em{font-size:13px;opacity:.75;font-style:normal}.cb p{font-size:15px;opacity:.9}.cb ul{padding-left:18px;margin:10px 0;font-size:14px;opacity:.85}
+.ac{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px;align-items:center}.op{opacity:.7;font-size:13px}
+.sv{padding:22px}.sv p{font-size:15px;opacity:.9}
+.st{padding:22px}.st b{display:grid;place-items:center;width:38px;height:38px;border-radius:14px;background:var(--a);color:#14182b;margin-bottom:10px}
+.ab{display:flex;gap:24px;align-items:center;padding:22px;flex-wrap:wrap}.ab img,.ab>span{width:150px}.ab p{flex:1;min-width:230px;font-size:18px}
+.tm{padding:16px;text-align:center}.tm img,.tm>span{width:110px;margin:0 auto 10px}.tm>span{display:grid;aspect-ratio:1;border-radius:22px;background:rgba(255,255,255,.1)}
+details{padding:16px 22px;margin-bottom:10px}summary{cursor:pointer;font-weight:600}details p{margin-top:8px;opacity:.9}
+.fm{display:grid;gap:12px;padding:22px;max-width:620px}label{display:grid;gap:6px;font-size:14px}
+.in{width:100%;padding:13px 16px;border-radius:16px;border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.07);color:#fff;font:inherit}.in option{color:#111}
+footer{text-align:center;padding:60px 6% 110px;font-size:14px;opacity:.85}footer a{color:var(--a)}
+.fw{position:fixed;right:16px;bottom:16px;z-index:25;padding:14px 20px;border-radius:22px;color:#eafff1;text-decoration:none;font-weight:600;background:rgba(37,211,102,.25)}
+#in{position:fixed;inset:0;z-index:50;background:var(--b1);display:grid;place-content:center;text-align:center;padding:20px;cursor:pointer;transition:opacity .8s,transform .8s}#in.x{opacity:0;transform:translateY(-30px);pointer-events:none}#in p{margin-top:12px;font-size:18px;opacity:.85}
+#m{position:fixed;inset:0;z-index:60;background:rgba(5,8,20,.7);display:none;place-items:center;padding:14px}#m.o{display:grid}
+.mb{width:min(1000px,100%);padding:14px}.mh{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:10px;flex-wrap:wrap}.mb iframe{width:100%;height:68vh;border:0;border-radius:18px;background:#fff}
+.r{opacity:0;transform:translateY(20px);transition:opacity .7s,transform .7s}.r.v{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}.r{opacity:1;transform:none}}
+</style></head><body>
+<div id="bg"><i></i><b></b></div><div id="in"></div><div id="app"></div>
+<div id="m"><div class="g mb"><div class="mh"><b id="mt"></b><span><a id="ml" class="bt o" target="_blank" rel="noopener">Open site</a> <button class="bt" id="mx">Close</button></span></div><iframe id="mf" title="Site preview"></iframe><p class="op">If the preview stays blank, use Open site.</p></div></div>
+<script>
+const $=s=>document.querySelector(s),E=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+fetch('content/site.json',{cache:'no-cache'}).then(r=>r.json()).then(go).catch(()=>{$('#app').innerHTML='<p style="padding:100px 6%">Could not load content/site.json</p>';$('#in').remove()});
+function go(d){
+const b=d.brand,l=d.look,c=d.contact,S=d.show,a=d.about,R=document.documentElement.style;
+document.title=b.title;
+R.setProperty('--a',l.accent);R.setProperty('--g',l.glow);R.setProperty('--b1',l.bg1);R.setProperty('--b2',l.bg2);R.setProperty('--ov',l.overlay);R.setProperty('--bl',(l.blur||0)+'px');
+if(l.bg_image){$('#bg i').style.backgroundImage='url("'+l.bg_image+'")';$('#bg b').style.display='block'}
+const wa=m=>'https://wa.me/'+String(c.whatsapp).replace(/\D/g,'')+'?text='+encodeURIComponent(m||c.wa_message);
+const ph=(i,t)=>i?`<img src="${E(i)}" alt="${E(t)}" loading="lazy">`:`<span>${E((t||'?')[0])}</span>`;
+const on=x=>x.show!==false,L=[];let h='';
+h+=`<header class="hero"><div><h1>${E(b.intro_name)}</h1><p>${E(b.tagline)}</p>${S.quote?'<a class="bt" href="#quote">Get a quote</a> ':''}<a class="bt o" href="${wa()}" target="_blank" rel="noopener">Chat on WhatsApp</a></div><div class="pt g t">${ph(a.photo,b.nav_name)}<small>${E(b.nav_name)}, ${E(b.role)}</small></div></header>`;
+if(S.sites){L.push(['work','Work']);h+=`<section id="work" class="r"><h2>Websites I’ve built</h2><div class="gr">${d.sites.filter(on).map(s=>`<article class="g t cs"><div class="th">${ph(s.image,s.title)}</div><div class="cb"><em>${E(s.category)}</em><h3>${E(s.title)}</h3><p>${E(s.desc)}</p>${s.includes&&s.includes.length?`<ul>${s.includes.map(x=>`<li>${E(x)}</li>`).join('')}</ul>`:''}<div class="ac">${s.url?`<button class="bt" data-p="${E(s.url)}" data-t="${E(s.title)}">Live preview</button><a class="bt o" href="${E(s.url)}" target="_blank" rel="noopener">Visit site</a>`:'<span class="op">Coming soon</span>'}</div></div></article>`).join('')}</div></section>`}
+if(S.services){L.push(['services','Services']);h+=`<section id="services" class="r"><h2>Services</h2><div class="gr">${d.services.filter(on).map(s=>`<div class="g t sv"><h3>${E(s.title)}</h3><p>${E(s.text)}</p></div>`).join('')}</div></section>`}
+if(S.how){h+=`<section class="r"><h2>How it works</h2><div class="gr">${d.how.map((s,i)=>`<div class="g t st"><b>${i+1}</b><h3>${E(s.title)}</h3><p>${E(s.text)}</p></div>`).join('')}</div></section>`}
+if(S.about){L.push(['about','About']);h+=`<section id="about" class="r"><h2>About me</h2><div class="g ab">${ph(a.photo,b.nav_name)}<p>${E(a.text)}</p></div></section>`}
+if(S.team){const t=d.team.filter(on);if(t.length)h+=`<section class="r"><h2>Team</h2><div class="gr">${t.map(m=>`<div class="g t tm">${ph(m.photo,m.name)}<h3>${E(m.name)}</h3><p class="op">${E(m.title)}</p></div>`).join('')}</div></section>`}
+if(S.faq){L.push(['faq','FAQ']);h+=`<section id="faq" class="r"><h2>FAQ</h2>${d.faq.filter(on).map(f=>`<details class="g"><summary>${E(f.q)}</summary><p>${E(f.a)}</p></details>`).join('')}</section>`}
+if(S.quote)h+=`<section id="quote" class="r"><h2>Get a quote</h2><form class="g fm" id="f"><input class="in" name="name" placeholder="Your name" required><input class="in" name="business" placeholder="Business name"><select class="in" name="type"><option value="">Type of business</option>${c.types.map(t=>`<option>${E(t)}</option>`).join('')}</select><textarea class="in" name="need" rows="3" placeholder="What do you need? Website, email, Google listing, social growth"></textarea><input class="in" name="phone" type="tel" placeholder="Phone or WhatsApp number" required><label>Instagram <small class="op">Optional</small><input class="in" name="instagram" placeholder="@yourbusiness"></label><label>Email <small class="op">Optional</small><input class="in" name="email" type="email" placeholder="you@business.com"></label><button class="bt">Send request</button><p id="fr" class="op">${E(c.reply_note)}</p></form></section>`;
+const nav=`<nav class="g"><a class="lg" href="#">${E(b.nav_name)}</a><span class="l">${L.map(x=>`<a href="#${x[0]}">${x[1]}</a>`).join('')}</span>${S.quote?'<a class="bt" href="#quote">Get a quote</a>':'<a class="bt" href="'+wa()+'">WhatsApp</a>'}</nav>`;
+const ft=`<footer>Designed by ${E(b.footer_name)}<br><a href="${wa()}" target="_blank" rel="noopener">WhatsApp</a> · <a href="mailto:${E(c.email)}">Email</a>${c.instagram?` · <a href="${E(c.instagram)}" target="_blank" rel="noopener">Instagram</a>`:''}</footer>`;
+$('#app').innerHTML=nav+h+ft+(S.floating_whatsapp?`<a class="fw g" href="${wa()}" target="_blank" rel="noopener">WhatsApp</a>`:'');
+const io=new IntersectionObserver(es=>es.forEach(x=>x.isIntersecting&&x.target.classList.add('v')),{threshold:.06});document.querySelectorAll('.r').forEach(x=>io.observe(x));
+const f=$('#f');if(f)f.onsubmit=async e=>{e.preventDefault();const o=Object.fromEntries(new FormData(f)),t=`Hi ${b.nav_name.split(' ')[0]}, I’d like a quote.\nName: ${o.name}\nBusiness: ${o.business}\nType: ${o.type}\nNeed: ${o.need}\nPhone: ${o.phone}`+(o.instagram?`\nInstagram: ${o.instagram}`:'')+(o.email?`\nEmail: ${o.email}`:'');let ok=false;
+if(c.formspree){try{ok=(await fetch(c.formspree,{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify(o)})).ok}catch(x){}}
+$('#fr').innerHTML=(ok?'Thanks, your request is in. ':'')+`Send it directly too: <a style="color:var(--a)" href="${wa(t)}" target="_blank" rel="noopener">WhatsApp</a> or <a style="color:var(--a)" href="mailto:${E(c.email)}?subject=${encodeURIComponent('Website quote request')}&body=${encodeURIComponent(t)}">email</a>`};
+document.addEventListener('click',e=>{const p=e.target.closest('[data-p]');if(p){$('#mt').textContent=p.dataset.t;$('#mf').src=p.dataset.p;$('#ml').href=p.dataset.p;$('#m').classList.add('o')}if(e.target.id==='mx'||e.target.id==='m'){$('#m').classList.remove('o');$('#mf').src='about:blank'}});
+document.addEventListener('pointermove',e=>{if(e.pointerType!=='mouse')return;const t=e.target.closest('.t');if(!t)return;const r=t.getBoundingClientRect(),x=(e.clientX-r.left)/r.width,y=(e.clientY-r.top)/r.height;t.style.setProperty('--mx',x*100+'%');t.style.setProperty('--my',y*100+'%');t.style.setProperty('--ry',(x-.5)*7+'deg');t.style.setProperty('--rx',(.5-y)*7+'deg')});
+document.addEventListener('pointerout',e=>{const t=e.target.closest&&e.target.closest('.t');if(t&&!t.contains(e.relatedTarget)){t.style.setProperty('--rx','0deg');t.style.setProperty('--ry','0deg')}});
+const I=$('#in');
+if(S.intro&&!matchMedia('(prefers-reduced-motion:reduce)').matches){const n=b.intro_name;let i=0;I.innerHTML='<h1 id="tn"></h1><p id="tg"></p>';I.onclick=()=>I.classList.add('x');
+const t=setInterval(()=>{$('#tn').textContent=n.slice(0,++i);if(i>=n.length){clearInterval(t);$('#tg').textContent=b.tagline;setTimeout(()=>I.classList.add('x'),1300)}},95)}else I.remove()}
+</script></body></html>
