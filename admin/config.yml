@@ -1,0 +1,127 @@
+backend:
+  name: github
+  repo: abababala/allan-aminu
+  branch: main
+  # Add the same auth lines (base_url or auth_endpoint) that your other sites use
+media_folder: images/uploads
+public_folder: images/uploads
+collections:
+  - name: site
+    label: My Website
+    files:
+      - name: site
+        label: Edit everything
+        file: content/site.json
+        fields:
+          - label: "1. Name, intro and tagline"
+            name: brand
+            widget: object
+            collapsed: true
+            fields:
+              - {label: Intro name, name: intro_name, widget: string, hint: Typed letter by letter when the site opens}
+              - {label: Name in the top menu, name: nav_name, widget: string}
+              - {label: Your title, name: role, widget: string, hint: Shows under your photo}
+              - {label: Tagline, name: tagline, widget: string, hint: Appears under the typed name}
+              - {label: Name in the footer, name: footer_name, widget: string}
+              - {label: Browser tab title, name: title, widget: string}
+          - label: "2. Look and feel"
+            name: look
+            widget: object
+            collapsed: true
+            fields:
+              - {label: Button colour, name: accent, widget: color}
+              - {label: Glow colour, name: glow, widget: color}
+              - {label: Background colour 1, name: bg1, widget: color}
+              - {label: Background colour 2, name: bg2, widget: color}
+              - {label: Background photo, name: bg_image, widget: image, required: false, hint: Optional. Compress under 300 KB first}
+              - {label: Photo darkness, name: overlay, widget: number, value_type: float, min: 0, max: 1, step: 0.05, hint: 0 is clear and 1 is fully dark}
+              - {label: Photo blur in pixels, name: blur, widget: number, value_type: int, min: 0, max: 30}
+          - label: "3. Turn sections on or off"
+            name: show
+            widget: object
+            collapsed: true
+            fields:
+              - {label: Intro animation, name: intro, widget: boolean}
+              - {label: Websites I have built, name: sites, widget: boolean}
+              - {label: Services, name: services, widget: boolean}
+              - {label: How it works, name: how, widget: boolean}
+              - {label: About me, name: about, widget: boolean}
+              - {label: Team, name: team, widget: boolean}
+              - {label: FAQ, name: faq, widget: boolean}
+              - {label: Quote form, name: quote, widget: boolean}
+              - {label: Floating WhatsApp button, name: floating_whatsapp, widget: boolean}
+          - label: "4. Contact and quote form"
+            name: contact
+            widget: object
+            collapsed: true
+            fields:
+              - {label: WhatsApp number, name: whatsapp, widget: string, hint: Digits only with country code}
+              - {label: Email, name: email, widget: string}
+              - {label: Instagram link, name: instagram, widget: string, required: false, hint: Leave empty to hide it}
+              - {label: Message prefilled in WhatsApp, name: wa_message, widget: string}
+              - {label: Reply time note, name: reply_note, widget: string}
+              - {label: Formspree link, name: formspree, widget: string, required: false, hint: Paste your Formspree form link. Empty means visitors send by WhatsApp or email}
+              - label: Business types in the form
+                name: types
+                widget: list
+                field: {label: Type, name: type, widget: string}
+          - label: "5. Websites I have built"
+            name: sites
+            widget: list
+            collapsed: true
+            summary: "{{fields.title}}"
+            fields:
+              - {label: Name, name: title, widget: string}
+              - {label: Type of business, name: category, widget: string}
+              - {label: Live link, name: url, widget: string, required: false, hint: Empty shows Coming soon}
+              - {label: Thumbnail, name: image, widget: image, required: false, hint: Compress under 300 KB}
+              - {label: Short description, name: desc, widget: text}
+              - label: What is included
+                name: includes
+                widget: list
+                required: false
+                field: {label: Item, name: item, widget: string}
+              - {label: Show on site, name: show, widget: boolean, default: true}
+          - label: "6. Services"
+            name: services
+            widget: list
+            collapsed: true
+            summary: "{{fields.title}}"
+            fields:
+              - {label: Name, name: title, widget: string}
+              - {label: Description, name: text, widget: text}
+              - {label: Show on site, name: show, widget: boolean, default: true}
+          - label: "7. How it works"
+            name: how
+            widget: list
+            collapsed: true
+            summary: "{{fields.title}}"
+            fields:
+              - {label: Step title, name: title, widget: string}
+              - {label: Step text, name: text, widget: string}
+          - label: "8. About me"
+            name: about
+            widget: object
+            collapsed: true
+            fields:
+              - {label: Your photo, name: photo, widget: image, required: false, hint: Shows on the homepage and in About}
+              - {label: About line, name: text, widget: text}
+          - label: "9. Team"
+            name: team
+            widget: list
+            collapsed: true
+            summary: "{{fields.name}}"
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Title, name: title, widget: string}
+              - {label: Photo, name: photo, widget: image, required: false}
+              - {label: Show on site, name: show, widget: boolean, default: true}
+          - label: "10. FAQ"
+            name: faq
+            widget: list
+            collapsed: true
+            summary: "{{fields.q}}"
+            fields:
+              - {label: Question, name: q, widget: string}
+              - {label: Answer, name: a, widget: text}
+              - {label: Show on site, name: show, widget: boolean, default: true}
