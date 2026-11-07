@@ -50,11 +50,11 @@ const $=s=>document.querySelector(s),E=s=>String(s==null?'':s).replace(/[&<>"]/g
 fetch('content/site.json',{cache:'no-cache'}).then(r=>r.json()).then(go).catch(()=>{$('#app').innerHTML='<p style="padding:100px 6%">Could not load content/site.json</p>';$('#in').remove()});
 function go(d){
 const b=d.brand,l=d.look,c=d.contact,S=d.show,a=d.about,R=document.documentElement.style;
-document.title=b.title;
+const u=p=>String(p||'').replace(/^\//,'');document.title=b.title;
 R.setProperty('--a',l.accent);R.setProperty('--g',l.glow);R.setProperty('--b1',l.bg1);R.setProperty('--b2',l.bg2);R.setProperty('--ov',l.overlay);R.setProperty('--bl',(l.blur||0)+'px');
-if(l.bg_image){$('#bg i').style.backgroundImage='url("'+l.bg_image+'")';$('#bg b').style.display='block'}
+if(l.bg_image){$('#bg i').style.backgroundImage='url("'+u(l.bg_image)+'")';$('#bg b').style.display='block'}
 const wa=m=>'https://wa.me/'+String(c.whatsapp).replace(/\D/g,'')+'?text='+encodeURIComponent(m||c.wa_message);
-const ph=(i,t)=>i?`<img src="${E(i)}" alt="${E(t)}" loading="lazy">`:`<span>${E((t||'?')[0])}</span>`;
+const ph=(i,t)=>i?`<img src="${E(u(i))}" alt="${E(t)}" loading="lazy">`:`<span>${E((t||'?')[0])}</span>`;
 const on=x=>x.show!==false,L=[];let h='';
 h+=`<header class="hero"><div><h1>${E(b.intro_name)}</h1><p>${E(b.tagline)}</p>${S.quote?'<a class="bt" href="#quote">Get a quote</a> ':''}<a class="bt o" href="${wa()}" target="_blank" rel="noopener">Chat on WhatsApp</a></div><div class="pt g t">${ph(a.photo,b.nav_name)}<small>${E(b.nav_name)}, ${E(b.role)}</small></div></header>`;
 if(S.sites){L.push(['work','Work']);h+=`<section id="work" class="r"><h2>Websites I’ve built</h2><div class="gr">${d.sites.filter(on).map(s=>`<article class="g t cs"><div class="th">${ph(s.image,s.title)}</div><div class="cb"><em>${E(s.category)}</em><h3>${E(s.title)}</h3><p>${E(s.desc)}</p>${s.includes&&s.includes.length?`<ul>${s.includes.map(x=>`<li>${E(x)}</li>`).join('')}</ul>`:''}<div class="ac">${s.url?`<button class="bt" data-p="${E(s.url)}" data-t="${E(s.title)}">Live preview</button><a class="bt o" href="${E(s.url)}" target="_blank" rel="noopener">Visit site</a>`:'<span class="op">Coming soon</span>'}</div></div></article>`).join('')}</div></section>`}
