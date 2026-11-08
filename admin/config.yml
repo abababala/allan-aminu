@@ -74,6 +74,8 @@ collections:
               - {label: Type of business, name: category, widget: string}
               - {label: Live link, name: url, widget: string, required: false, hint: Empty shows Coming soon}
               - {label: Thumbnail, name: image, widget: image, required: false, hint: Compress under 300 KB}
+              - {label: Phone screenshot, name: mobile_image, widget: image, required: false, hint: Optional. Shown on phones instead of the thumbnail}
+              - {label: Crop focus, name: focus, widget: select, required: false, default: top, hint: Which part of the image stays visible when it is cropped to fit, options: [{label: Top, value: top}, {label: Upper (good for faces), value: upper}, {label: Centre, value: center}, {label: Bottom, value: bottom}]}
               - {label: Short description, name: desc, widget: text}
               - label: What is included
                 name: includes
@@ -104,6 +106,7 @@ collections:
             collapsed: true
             fields:
               - {label: Your photo, name: photo, widget: image, required: false, hint: Shows on the homepage and in About}
+              - {label: Crop focus, name: focus, widget: select, required: false, default: upper, hint: Which part of the image stays visible when it is cropped to fit, options: [{label: Top, value: top}, {label: Upper (good for faces), value: upper}, {label: Centre, value: center}, {label: Bottom, value: bottom}]}
               - {label: About line, name: text, widget: text}
           - label: "9. Team"
             name: team
@@ -114,6 +117,7 @@ collections:
               - {label: Name, name: name, widget: string}
               - {label: Title, name: title, widget: string}
               - {label: Photo, name: photo, widget: image, required: false}
+              - {label: Crop focus, name: focus, widget: select, required: false, default: upper, hint: Which part of the image stays visible when it is cropped to fit, options: [{label: Top, value: top}, {label: Upper (good for faces), value: upper}, {label: Centre, value: center}, {label: Bottom, value: bottom}]}
               - {label: Show on site, name: show, widget: boolean, default: true}
           - label: "10. FAQ"
             name: faq
@@ -124,3 +128,51 @@ collections:
               - {label: Question, name: q, widget: string}
               - {label: Answer, name: a, widget: text}
               - {label: Show on site, name: show, widget: boolean, default: true}
+          - label: "11. Testimonials"
+            name: testimonials
+            widget: list
+            required: false
+            collapsed: true
+            summary: "{{fields.name}}"
+            fields:
+              - {label: Quote, name: quote, widget: text}
+              - {label: Name, name: name, widget: string}
+              - {label: Role or business, name: role, widget: string, required: false}
+              - {label: Show on site, name: show, widget: boolean, default: true}
+          - label: "12. Carousel, intro, spacing and extras"
+            name: ui
+            widget: object
+            required: false
+            collapsed: true
+            fields:
+              - {label: Seconds per slide, name: carousel_seconds, widget: number, value_type: int, min: 1, max: 30, required: false, hint: Empty means 4}
+              - {label: Stop auto sliding, name: carousel_pause, widget: boolean, required: false}
+              - {label: Hide arrows, name: hide_arrows, widget: boolean, required: false}
+              - {label: Hide dots, name: hide_dots, widget: boolean, required: false}
+              - {label: Intro background, name: intro_bg_mode, widget: select, required: false, default: site, options: [{label: Same as the site, value: site}, {label: Own colour, value: colour}, {label: Own photo, value: photo}]}
+              - {label: Intro colour, name: intro_bg_color, widget: color, required: false}
+              - {label: Intro photo, name: intro_bg_image, widget: image, required: false}
+              - {label: Typing speed in milliseconds per letter, name: typing_speed, widget: number, value_type: int, min: 30, max: 300, required: false, hint: Empty means 95. Smaller is faster}
+              - {label: Space between sections, name: spacing, widget: select, required: false, default: normal, options: [{label: Compact, value: compact}, {label: Normal, value: normal}, {label: Relaxed, value: relaxed}]}
+              - {label: Glass blur in pixels, name: glass_blur, widget: number, value_type: int, min: 0, max: 40, required: false, hint: Empty means 18}
+              - {label: Glass transparency, name: glass_opacity, widget: number, value_type: float, min: 0, max: 0.4, step: 0.02, required: false, hint: Empty means 0.08}
+              - {label: Announcement bar text, name: announcement, widget: string, required: false, hint: Leave empty to hide the bar}
+              - {label: Hide floating email icon, name: hide_email_icon, widget: boolean, required: false}
+              - label: Section order
+                name: section_order
+                widget: list
+                required: false
+                hint: Drag to reorder. Sections you leave out are hidden. Empty means the default order
+                field: {label: Section, name: s, widget: select, options: [Websites, Services, "How it works", "About me", Team, Testimonials, FAQ, "Quote form"]}
+              - {label: Websites heading, name: h_sites, widget: string, required: false, hint: Leave empty to use the default}
+              - {label: Services heading, name: h_services, widget: string, required: false}
+              - {label: How it works heading, name: h_how, widget: string, required: false}
+              - {label: About heading, name: h_about, widget: string, required: false}
+              - {label: Team heading, name: h_team, widget: string, required: false}
+              - {label: Testimonials heading, name: h_testimonials, widget: string, required: false}
+              - {label: FAQ heading, name: h_faq, widget: string, required: false}
+              - {label: Quote form heading, name: h_quote, widget: string, required: false}
+              - {label: Quote button name, name: lbl_quote, widget: string, required: false}
+              - {label: WhatsApp button name, name: lbl_wa, widget: string, required: false}
+              - {label: Live preview button name, name: lbl_preview, widget: string, required: false}
+              - {label: Visit site button name, name: lbl_visit, widget: string, required: false}
