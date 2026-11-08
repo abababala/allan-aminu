@@ -52,6 +52,8 @@
       "category": "Online fashion store",
       "url": "https://abababala.github.io/urban-thread/",
       "image": "",
+      "mobile_image": "",
+      "focus": "top",
       "desc": "A bright fashion store with a simple cart that sends orders to WhatsApp.",
       "includes": [
         "Categories, sizes and size guides",
@@ -66,6 +68,8 @@
       "category": "Hotel or serviced apartments",
       "url": "https://abababala.github.io/haven-suites/",
       "image": "",
+      "mobile_image": "",
+      "focus": "top",
       "desc": "A modern, minimal hotel site where guests send booking requests.",
       "includes": [
         "Room pages with prices",
@@ -80,6 +84,8 @@
       "category": "Restaurant",
       "url": "https://abababala.github.io/ember-kitchen/",
       "image": "",
+      "mobile_image": "",
+      "focus": "top",
       "desc": "A dark, rustic restaurant site built around the menu.",
       "includes": [
         "Menu and gallery",
@@ -93,6 +99,8 @@
       "category": "Real estate",
       "url": "https://abababala.github.io/prime-estates/",
       "image": "",
+      "mobile_image": "",
+      "focus": "top",
       "desc": "A warm, stone-toned property site with slideshows.",
       "includes": [
         "Property listings",
@@ -106,6 +114,8 @@
       "category": "Hospital or clinic",
       "url": "https://abababala.github.io/meridian-care-hospital/",
       "image": "/images/uploads/IMG_4715.png",
+      "mobile_image": "",
+      "focus": "top",
       "desc": "A clear, trustworthy hospital site for patients and professionals to getting better online and web traction.",
       "includes": [
         "Departments and services",
@@ -118,6 +128,8 @@
       "category": "Modeling agency",
       "url": "https://newbuttonmodels.com",
       "image": "/images/uploads/IMG_4714.png",
+      "mobile_image": "",
+      "focus": "top",
       "desc": "The website for a modeling agency created to represent their brand identity and function.",
       "includes": [],
       "show": true
@@ -165,6 +177,7 @@
   ],
   "about": {
     "photo": "/images/uploads/IMG_3138.jpeg",
+    "focus": "upper",
     "text": "I’m Allan Aminu. I build websites, set up business emails and help brands, professionals or key players in their field show up online and in the digital space from Google to Instagram."
   },
   "team": [
@@ -172,6 +185,7 @@
       "name": "Allan Aminu",
       "title": "Media branding expert and Web Designer",
       "photo": "/images/uploads/IMG_3138.jpeg",
+      "focus": "upper",
       "show": true
     }
   ],
@@ -196,5 +210,34 @@
       "a": "Yes. Your site comes with a simple admin page for changing text, photos and prices. This is an optional offer.",
       "show": true
     }
-  ]
+  ],
+  "testimonials": [],
+  "ui": {
+    "carousel_seconds": null,
+    "carousel_pause": false,
+    "hide_arrows": false,
+    "hide_dots": false,
+    "intro_bg_mode": "site",
+    "intro_bg_color": "",
+    "intro_bg_image": "",
+    "typing_speed": null,
+    "spacing": "compact",
+    "glass_blur": null,
+    "glass_opacity": null,
+    "announcement": "",
+    "hide_email_icon": false,
+    "section_order": [],
+    "h_sites": "",
+    "h_services": "",
+    "h_how": "",
+    "h_about": "",
+    "h_team": "",
+    "h_testimonials": "",
+    "h_faq": "",
+    "h_quote": "",
+    "lbl_quote": "",
+    "lbl_wa": "",
+    "lbl_preview": "",
+    "lbl_visit": ""
+  }
 }
