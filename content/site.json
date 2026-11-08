@@ -14,7 +14,7 @@
     "bg2": "#563d00",
     "bg_image": "/images/uploads/IMG_4906.jpeg",
     "overlay": 0,
-    "blur": 2
+    "blur": 4
   },
   "show": {
     "intro": true,
