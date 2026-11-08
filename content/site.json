@@ -164,7 +164,7 @@
     },
     {
       "title": "Get your quote",
-      "text": "We’ll reply with a price and what is included."
+      "text": "Tell us your idea, we’ll reply with a price and what is included. We’ll bring your idea live."
     },
     {
       "title": "We design and build around your request or brand identity.",
@@ -223,7 +223,7 @@
     "typing_speed": null,
     "spacing": "compact",
     "glass_blur": null,
-    "glass_opacity": null,
+    "glass_opacity": 0.02,
     "announcement": "",
     "hide_email_icon": false,
     "section_order": [],
