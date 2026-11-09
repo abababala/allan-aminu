@@ -132,7 +132,7 @@
       "focus": "top",
       "desc": "The website for a modeling agency created to represent their brand identity and function.",
       "includes": [],
-      "show": true
+      "show": false
     }
   ],
   "services": [
