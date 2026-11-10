@@ -127,12 +127,12 @@
       "title": "Newbutton Models",
       "category": "Modeling agency",
       "url": "https://newbuttonmodels.com",
-      "image": "/images/uploads/IMG_4915.jpeg",
+      "image": "/images/uploads/IMG_5016.jpeg",
       "mobile_image": "",
       "focus": "top",
       "desc": "The website for a modeling agency created to represent their brand identity and function.",
       "includes": [],
-      "show": false
+      "show": true
     }
   ],
   "services": [
